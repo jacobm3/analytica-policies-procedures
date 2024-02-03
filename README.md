@@ -14,10 +14,6 @@ standards/      Standards specify the controls satisfied by the compliance progr
 templates/      Templates control the output format of the HTML Dashboard and PDF assets.
 ```
 
-# Building
-
-Assets are built using [`comply`](https://comply.strongdm.com), which can be installed via `brew install comply` (macOS) or `go get github.com/strongdm/comply`
-
 # Publishing
 
 The `output/` directory contains all generated assets. Links in the HTML dashboard are relative, and all dependencies are included via direct CDN references. The entire `output/` directory, therefore, may be uploaded to an S3 bucket or another static asset host without further modification.
