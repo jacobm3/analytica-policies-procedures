@@ -1,0 +1,5 @@
+name: Analytica
+filePrefix: analytica
+tickets:
+  github: {}
+approvedBranch: ""
